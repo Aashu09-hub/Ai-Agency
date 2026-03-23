@@ -28,13 +28,13 @@ const Navbar = ({theme, setTheme}) => {
         top-4 sm:hidden' onClick={() => setSidebarOpen(false)}/>
 
 
-        <a onClick={()=>setSidebarOpen(false)} href='#' 
+        <a onClick={()=>setSidebarOpen(false)} href='#hero' 
         className='sm:hover:border-b'>Home</a>
-        <a onClick={()=>setSidebarOpen(false)} href='#' 
+        <a onClick={()=>setSidebarOpen(false)} href='#services' 
         className='sm:hover:border-b'>Services</a>
-        <a onClick={()=>setSidebarOpen(false)} href='#' 
+        <a onClick={()=>setSidebarOpen(false)} href='#our-work' 
         className='sm:hover:border-b'>Our Work</a>
-        <a onClick={()=>setSidebarOpen(false)} href='#' 
+        <a onClick={()=>setSidebarOpen(false)} href='#contact-us' 
         className='sm:hover:border-b'>Contact Us</a>
       </div>
 
